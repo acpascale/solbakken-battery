@@ -11,7 +11,7 @@ source ( "SBMdata_clean.R" )
 
 # libraries used in analysis
 suppressMessages ( library ( "ggplot2"    , lib.loc=.libPaths() ) )      # ggplot
-#suppressMessages ( library ( "scales"     , lib.loc=.libPaths() ) )      # scale_x 
+suppressMessages ( library ( "scales"     , lib.loc=.libPaths() ) )      # scale_x 
 #suppressMessages ( library ( "reshape2"    , lib.loc=.libPaths() ) )      # melt
 #suppressMessages ( library ( "data.table"  , lib.loc=.libPaths() ) )      # setorder -- used in GDP to CO2, but put here so doesn't mask other functions
 #suppressMessages ( library ( "openxlsx"    , lib.loc=.libPaths() ) )      # worksheet functions
